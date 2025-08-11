@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contact_messages",
+  "info": {
+    "singularName": "contact-message",
+    "pluralName": "contact-messages",
+    "displayName": "contact-message"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "apellidoP": {
+      "type": "string"
+    },
+    "apellidoM": {
+      "type": "string"
+    },
+    "correo": {
+      "type": "email"
+    },
+    "telefono": {
+      "type": "string"
+    },
+    "intereses": {
+      "type": "json"
+    },
+    "source": {
+      "type": "string"
+    },
+    "emailjs_status": {
+      "type": "string"
+    },
+    "emailjs_response": {
+      "type": "text"
+    },
+    "ip": {
+      "type": "string"
+    },
+    "user_agent": {
+      "type": "string"
+    }
+  }
+}
